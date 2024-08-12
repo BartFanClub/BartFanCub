@@ -1,0 +1,29 @@
+@font-face {
+  font-family: "SimpsonFont";
+  src:
+    local("simpsonfont"),
+    url("simpsonfont.otf") format("opentype")
+}
+
+body {
+    background: rgb(150, 173, 81);
+}
+
+svg {
+    width:  90%;
+    height: 90%;
+}
+
+#my-btn {
+    margin-bottom: 25px;
+
+    font-family: SimpsonFont;
+}
+
+#text {
+    font-family: SimpsonFont;
+    font-size: 14pt;
+    color: rgb(254, 212, 29);
+    text-shadow: 2px 2px rgb(100, 60, 26);
+letter-spacing: 2px;
+}
